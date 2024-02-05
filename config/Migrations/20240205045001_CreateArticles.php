@@ -48,7 +48,6 @@ class CreateArticles extends AbstractMigration
         ]);
         $table->addIndex([
             'slug',
-        
             ], [
             'name' => 'UNIQUE_SLUG',
             'unique' => true,
